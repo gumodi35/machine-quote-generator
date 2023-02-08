@@ -1,4 +1,12 @@
 body {
+  background-image: "url(https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/GettyImages-577674005_492115_zfpgiw.jpg)";
+  background-size: "cover";
+  background-position: "center";
+  filter: "blur(5px)";
+  height: "100vh";
+  display: "flex";
+  align-items: center;
+  justify-content: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
