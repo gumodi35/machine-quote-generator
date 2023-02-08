@@ -1,6 +1,117 @@
-#quote-box {
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+/* 
+.container {
+  background-image: url('../public/images/books.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -100;
+  margin: 0;
+  border: solid blue 1px;
+  filter: blur(2px); 
+} */
+
+/* .quote-box{
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(241, 232, 232);
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  margin: 0;
+  z-index: 1;
+} */
+
+/* #quote-box {
+  border: solid 1px rgb(241, 232, 232);
   width: 50%;
   margin: auto;
   text-align: center;
+  z-index: 100;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../public/images/books.jpg');
+  background-size: cover;
+  filter: brightness(90%) hue-rotate(180deg);
+  height: 100vh;
+  width: 100%;
 }
 
+.quote-box {
+  background-color: rgba(255, 255, 255, 0.993);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', serif;
+  width: 80%;
+  max-width: 500px;
+  min-width: 300px;
+  margin-top: 5%;
+}
+
+#text {
+  font-size: 1.5rem;
+  color: black;
+}
+
+#author {
+  font-size: 1.2rem;
+  color: rgb(12, 52, 230);
+  margin-top: 1rem;
+}
+
+#new-quote {
+  background-color: rgb(150, 149, 192);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px black;
+}
+
+#new-quote:hover {
+  background-color:rgb(16, 19, 211);
+  transform: translateY(-2px);
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: rgb(150, 149, 192);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px black;
+}
+
+button:hover {
+  background-color: rgb(16, 19, 211);
+  transform: translateY(-2px);
+}
